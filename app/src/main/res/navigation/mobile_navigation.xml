@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.lumina.ui.inicio.InicioFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_nav_inicio_to_nav_articulo"
+            app:destination="@id/nav_articulo" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_peliculas"
+        android:name="com.example.lumina.ui.peliculas.PeliculaFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_peliculas">
+        <action
+            android:id="@+id/action_nav_peliculas_to_articulo"
+            app:destination="@id/nav_articulo">
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_series"
+        android:name="com.example.lumina.ui.series.SeriesFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_series">
+        <action
+            android:id="@+id/action_nav_series_to_articulo"
+            app:destination="@id/nav_articulo">
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_trailers"
+        android:name="com.example.lumina.ui.trailers.TrailerFragment"
+        android:label="@string/menu_trailers"
+        tools:layout="@layout/fragment_trailers">
+        <action
+            android:id="@+id/action_nav_trailers_to_articulo"
+            app:destination="@id/nav_articulo">
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_articulo"
+        android:name="com.example.lumina.ui.vista.ArticuloFragment"
+        android:label="@string/menu_Puntuar"
+        tools:layout="@layout/fragment_articulo" >
+        <argument
+            android:name="id"
+            app:argType="integer"
+            android:defaultValue="100" />
+    </fragment>
+
+</navigation>

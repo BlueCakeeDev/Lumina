@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Lumina" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+    </style>
+
+    <style name="Theme.Lumina.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Lumina.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Lumina.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

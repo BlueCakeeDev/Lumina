@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Lumina" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <item name="android:windowBackground">@color/moradoObscuro</item>
+
+        <item name="colorPrimary">@color/moradoClaro</item>
+
+        <item name="colorPrimaryVariant">@color/moradoFuerte</item>
+
+        <item name="colorSecondary">@color/rosa</item>
+
+        <!-- Aplicar el estilo del NavigationView -->
+        <item name="navigationViewStyle">@style/NavigationViewStyle</item>
+    </style>
+
+    <style name="NavigationViewStyle" parent="Widget.Design.NavigationView">
+
+        <item name="android:background">@color/moradoFuerte</item>
+
+    </style>
+</resources>

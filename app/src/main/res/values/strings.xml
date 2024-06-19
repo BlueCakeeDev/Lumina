@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lumina</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Lumina Films</string>
+    <string name="nav_header_subtitle">Entretenimiento Indie</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Peliculas</string>
+    <string name="menu_slideshow">Series</string>
+    <string name="menu_trailers">Trailers</string>
+    <string name="menu_Puntuar">Puntuar Contenido</string>
+
+    <string name="inicio_nombre">Lumina</string>
+    <string name="inicio_accede">Accede con tu cuenta de Google</string>
+
+    <string name="default_web_client_id">266672471279-njqsfpcf6o0fckadg2pefkd18um9q8ej.apps.googleusercontent.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

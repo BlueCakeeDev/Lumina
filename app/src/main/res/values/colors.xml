@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="moradoFuerte">#260c39</color>
+    <color name="moradoPrincipal">#724C9D</color>
+    <color name="purple_700">#2C1B47</color>
+    <color name="teal_200">#724C9D</color>
+    <color name="moradoClaro">#9356a0</color>
+    <color name="moradoObscuro">#160922</color>
+    <color name="blanco">#DCCAE9</color>-->
+
+    <color name="moradoClaro">#b27fbf</color>
+    <color name="moradoMedio">#63276a</color>
+    <color name="moradoFuerte">#220632</color>
+    <color name="moradoObscuro">#0e011b</color>
+
+    <color name="moradoMedioTransparente">#8063276a</color>
+
+    <color name="blanco">#dcd9ea</color>
+    <color name="rosa">#f0a09d</color>
+
+</resources>
